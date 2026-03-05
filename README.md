@@ -6,48 +6,58 @@
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper-red?style=for-the-badge)
 
-**SecureAutoSmartLocks (SASL)** is a legendary high-performance security framework for modern Minecraft servers. Engineered by **Protocol-S Development**, it introduces the **Colossus Integrity Suite**—a multi-layer synchronization system designed for absolute protection with zero performance impact.
+**SecureAutoSmartLocks (SASL)** is a high-performance security framework for modern Minecraft servers. Engineered by **Protocol-S Development**, it introduces the **Colossus Integrity Suite**—a multi-layer synchronization system designed for absolute protection with zero performance impact.
 
 ---
 
-## 🛡️ Key Features
+## 🛡️ The Colossus Advantage
 
-* **⚡ Zero-Lag Migration:** Effortlessly bridge from LWC to SASL using our asynchronous "Colossus Bridge" protocol.
+* **⚡ Zero-Lag Migration:** Bridge from legacy systems (LWC) to SASL effortlessly via our asynchronous *Colossus Bridge*.
 * **💎 Master-Slave Logic:** Smart synchronization for double chests and multi-block structures. Break one, secure all.
-* **💾 Hybrid Persistence:** Dual-layer data protection using **Persistent Data Container (PDC)** and optimized YAML/SQL storage.
-* **🏗️ Auto-Lock Engine:** Instant protection for containers, doors, and shulker boxes upon placement.
-* **🌐 Global Localization:** Full multi-language support out of the box.
+* **💾 Hybrid Persistence:** Dual-layer protection utilizing **PDC (Persistent Data Container)** and optimized YAML/SQL storage.
+* **🧹 Brutal Station:** Automated maintenance engine that purges ghost data and sector corruption.
+* **🦅 Anka Protocol:** Real-time autonomous data recovery and self-healing integrity checks.
+* **🏗️ Auto-Lock Engine:** Instant, physics-aware protection for all container types upon placement.
 
 ---
 
-## 🚀 The Colossus Bridge (LWC Migration)
+## 🌉 Migration Protocol: The Colossus Bridge
 
-Moving from LWC? SASL handles the heavy lifting. Our asynchronous migration engine can process 35K+ locks without skipping a tick.
+Moving from LWC? SASL handles the heavy lifting. Our asynchronous engine processes 35K+ locks without skipping a single tick:
 
 1. Place your `lwc.db` in `/plugins/SecureAutoSmartLocks/import/`.
 2. Restart the server.
-3. Watch the **Zero-Duplication Protocol** synchronize your database.
+3. Observe the **Zero-Duplication Protocol** as it synchronizes your data.
+
+---
+
+## ⚡ The Roadmap: Evolution (v2.9.x)
+
+We are actively architecting the **Protocol-S Vault Engine**. This upcoming evolution will transition the ecosystem to **Native SQL/MySQL/H2 Clusters**, enabling:
+* Management of millions of concurrent lock entries.
+* Sub-millisecond query execution.
+* Deep integration with third-party protection frameworks.
 
 ---
 
 ## 🛠️ Installation
 
-1. Download the latest `.jar` from [Modrinth](https://modrinth.com) or [CurseForge](https://curseforge.com).
-2. Drop it into your `/plugins` folder.
-3. Start your server and let the **Protocol-S** initialize.
+1. Download the latest `.jar` release from our **[Modrinth](https://modrinth.com)** or **[CurseForge](https://curseforge.com)** page.
+2. Deploy the file into your `/plugins` directory.
+3. Initiate the server and watch the **Protocol-S** architecture initialize.
 
 ---
 
-## 📖 Documentation & Support
+## 📖 Technical Documentation
 
-For detailed commands, permissions, and API usage, visit our official **[Wiki](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki)**.
+For detailed commands, permissions, API hooks, and technical architecture, visit the official **[Protocol-S Wiki](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki)**.
 
 ---
 
 ## 🏛️ About Protocol-S Development
 We are architects of high-performance Minecraft ecosystems. Our focus is on data integrity, anti-griefing protocols, and server-side optimization.
 
-*Lead Developer:* **RunningArmy6** *Organization:* **Protocol-S Development**
+*Lead Architect:* **RunningArmy6** *Organization:* **Protocol-S Development**
 
 ---
-© 2024 Protocol-S Development. Released under the MIT License.
+© 2026 Protocol-S Development. Released under the MIT License.
