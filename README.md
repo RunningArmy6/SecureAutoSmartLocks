@@ -24,7 +24,7 @@
 
 Moving from LWC? SASL handles the heavy lifting. Our asynchronous migration engine can process 35K+ locks without skipping a tick.
 
-1. Place your `lwc.db` in `/plugins/SmartLocks/import/`.
+1. Place your `lwc.db` in `/plugins/SecureAutoSmartLocks/import/`.
 2. Restart the server.
 3. Watch the **Zero-Duplication Protocol** synchronize your database.
 
