@@ -32,7 +32,8 @@ Migration Steps;
 - Import Legacy Data 📦 – Drag and drop your backed-up lwc.db file into the import folder.
 - Restart & Relax 🎉 – Launch your server and let the Colossus Bridge synchronize your legacy locks seamlessly.
 
-⚠️ Important Notice: No system is flawless. Always keep a backup of your data. The migration engine is brand new in v2.8.2, so precaution is essential.
+>[!caution]
+>⚠️ Important Notice: No system is flawless. Always keep a backup of your data. The migration engine is brand new in v2.8.2, so precaution is essential.
 
 — Protocol-S Development
 
@@ -72,16 +73,15 @@ The Protocol-S Framework Initiative will redefine SASL from a lock engine into a
 
 ---
 
-## 📖 Technical Documentation
-
-For detailed commands, permissions and technical architecture, visit the official **[Protocol-S Wiki](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki)**.
+>[!TIP]
+>## 📖 Technical Documentation
+>For detailed commands, permissions and technical architecture, visit the official **[Protocol-S Wiki](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki)**.
 
 ---
-
-## 🏛️ About Protocol-S Development
-We are architects of high-performance Minecraft ecosystems. Our focus is on data integrity, anti-griefing protocols, and server-side optimization.
-
-*Lead Architect:* **RunningArmy6** *Organization:* **Protocol-S Development**
+>[!Note]
+>## 🏛️ About Protocol-S Development
+>We are architects of high-performance Minecraft ecosystems. Our focus is on data integrity, anti-griefing protocols, and server-side optimization.
+>*Lead Architect:* **RunningArmy6** *Organization:* **Protocol-S Development**
 
 ---
 © 2026 Protocol-S Development. Released under the MIT License.
