@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/badge/Version-2.8.1--Colossus-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-ARR-green?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper-red?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper%20%2F%20Bukkit%20%2F%20Purpur-red?style=for-the-badge)
 
 **SecureAutoSmartLocks (SASL)** is a high-performance security framework for modern Minecraft servers. Engineered by **Protocol-S Development**, it introduces the **Colossus Integrity Suite**—a multi-layer synchronization system designed for absolute protection with stable performance impact.
 
