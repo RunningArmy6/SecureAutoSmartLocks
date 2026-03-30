@@ -2,7 +2,7 @@
 ### *The Colossus Integrity Suite*
 
 ![Version](https://img.shields.io/badge/Version-2.8.1--Colossus-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-ARR-green?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper-red?style=for-the-badge)
 
