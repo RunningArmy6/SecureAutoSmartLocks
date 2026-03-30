@@ -84,4 +84,6 @@ The Protocol-S Framework Initiative will redefine SASL from a lock engine into a
 >*Lead Architect:* **RunningArmy6** *Organization:* **Protocol-S Development**
 
 ---
-© 2026 Protocol-S Development. Released under the MIT License.
+© 2026 Protocol-S Development 
+This software is proprietary
+NOT open source. All Rights Reserved.
