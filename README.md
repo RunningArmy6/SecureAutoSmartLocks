@@ -40,7 +40,7 @@ Current implementation includes:
 
 **Version compatibility note:** The automation systems are considered most reliable from the **2.8.2+ development line** onward. Earlier versions are legacy implementations and may exhibit less reliable behavior.
 
-[📖 Automation Systems Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Automation-Chain)
+[📖 Automation Systems Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/AutomationChain)
 
 ---
 
