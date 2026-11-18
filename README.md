@@ -74,7 +74,7 @@ Migration operations use background processing and validation to reduce the risk
 
 > **Important:** Always back up your server and migration database before starting an import. Migration results should be verified before removing the original data.
 
-[📖 Migration Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Migration-Protocol)
+[📖 Migration Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Dreadnought-Protocol)
 
 ---
 
