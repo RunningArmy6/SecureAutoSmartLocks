@@ -86,7 +86,7 @@ Migration operations use background processing and validation to reduce the risk
 | [Automation Systems](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/AutomationChain) | Hopper, hopper minecart and ownership systems. |
 | [Core Engine](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Core-Engine) | Overview of SASL's specialist modules. |
 | [Migration Protocol](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Dreadnought-Protocol) | Legacy data migration and Colossus Bridge. |
-| [Commands & Permissions](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Commands-and-Permissions) | Available commands and authorization. |
+| [Commands & Permissions](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/CommandProtocols) | Available commands and authorization. |
 | [Storage Architecture](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Storage-Architecture) | Repository, YAML, PDC and cache architecture. |
 
 ---
