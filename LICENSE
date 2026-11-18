@@ -1,63 +1,149 @@
-PROPRIETARY SOFTWARE LICENSE
-All Rights Reserved
-© 2026 Protocol-S Development
+# PROPRIETARY SOURCE-AVAILABLE SOFTWARE LICENSE
 
-SASL PROJECT COLOSSUS
-End User License Agreement (EULA) Version 2.8x
-Effective Date: 22 January 2026
+**All Rights Reserved**
 
-1. Grant of License
-This Agreement grants the Licensee a non-exclusive, non-transferable, revocable license to install and use SASL v2.8 (on a Single Logical Network (e.g., a standalone server, BungeeCord, or Velocity cluster controlled by the Licensee).
-This license permits execution of the Software in compiled form only.
+Copyright © 2026 Protocol-S Development  
+Project: SecureAutoSmartLocks (SASL)  
+License: Proprietary Source-Available Software License  
+License Version: 2.8.x  
+Effective Date: [Publication Date]
+
+---
+
+## 1. Grant of License
+
+This Agreement grants the Licensee a limited, non-exclusive, non-transferable license to install and use SecureAutoSmartLocks (SASL) in its compiled form.
+
+The license permits installation on a single Minecraft server or within a Single Logical Network controlled and administered by the Licensee.
+
+A Single Logical Network may include:
+- A standalone Minecraft server.
+- A connected BungeeCord network.
+- A connected Velocity network.
+- Other directly connected server instances under the same administration.
+
+The Licensee may access and inspect the publicly available source code through the official Protocol-S Development repositories.
+
+Source code availability does not grant additional rights to modify, redistribute, sublicense, or commercially exploit the Software.
+
 No ownership rights are transferred under this Agreement.
 
-2. Intellectual Property
-The Software, including but not limited to:
-Source code
-Compiled binaries
-Architectural design
-State transition mechanisms
-Data synchronization logic
-Automated recovery systems
-are the exclusive intellectual property of the Developer.
-This Software is proprietary and not open source.
-The Licensee may not:
-Decompile, reverse engineer, or disassemble the Software
-Modify or create derivative works
-Redistribute or resell the Software
-Extract internal logic for replication purposes
-Except where such restriction is prohibited by applicable law.
+## 2. Intellectual Property
 
-3. Data Ownership
-All player data, configuration data, and server-generated records remain the property of the Licensee.
-The Developer claims no ownership over server-side player data.
-However, manipulation of internal metadata structures (including PDC tags, database schema, or internal identifiers) may void support eligibility.
+SASL, including but not limited to:
 
-4. Updates & Support
-Minor updates (2.x series) are included under this license.
-Major version upgrades (3.0+) may require a separate licensing agreement.
-Support is provided at the Developer's discretion and may be revoked in cases of license violation.
+- Source code and compiled binaries.
+- Software architecture and internal components.
+- State management and synchronization mechanisms.
+- Data persistence and recovery systems.
+- Internal algorithms and implementation details.
+- Documentation and original project assets.
 
-5. Warranty Disclaimer
-The Software is provided without warranty of any kind, express or implied.
-The Developer does not guarantee uninterrupted operation or compatibility with third-party plugins or modified server environments.
+remains the intellectual property of Protocol-S Development and its respective rights holders.
 
-6. Limitation of Liability
-To the maximum extent permitted by law:
-The Developer shall not be liable for:
-Data loss
-Server instability
-Financial loss
-Indirect or consequential damages
-Total liability, if any, shall not exceed the amount paid for the license.
+SASL is proprietary and source-available software. It is not distributed under an open-source license.
 
-7. Termination
-This license automatically terminates if the Licensee violates any provision of this Agreement.
-Upon termination, the Licensee must cease all use of the Software and remove it from all servers.
+Unless explicitly authorized in writing by the Developer, the Licensee may not:
 
-8. Governing Law
-This Agreement shall be governed by and construed in accordance with the laws of the Developer's registered jurisdiction.
-Any disputes shall be resolved through binding arbitration or the appropriate court of jurisdiction.
+- Modify, adapt, or create derivative versions of the Software.
+- Redistribute, sublicense, sell, or commercially repackage the Software.
+- Publish modified or rebranded versions.
+- Reuse substantial portions of the source code in another project.
+- Reverse engineer, decompile, or disassemble compiled binaries to reproduce internal implementation details.
 
-9. Entire Agreement
-This Agreement constitutes the entire agreement between the parties regarding the Software and supersedes any prior communications.
+These restrictions apply only to the extent permitted by applicable law. Nothing in this Agreement removes rights that cannot legally be restricted.
+
+## 3. Source Code Availability
+
+The official source code may be publicly accessible through designated Protocol-S Development repositories.
+
+This access is provided for inspection, evaluation, and understanding of the Software.
+
+Public repository access does not constitute permission to:
+- Claim authorship of SASL or its components.
+- Publish modified copies as independent distributions.
+- Use SASL source code as the foundation of a competing product.
+- Remove or alter copyright and ownership notices.
+
+Any additional permissions must be granted explicitly by the Developer.
+
+## 4. Data Ownership and Server Records
+
+All player data, configuration data, and server-generated records created or maintained by the Licensee remain under the Licensee's control.
+
+Protocol-S Development does not claim ownership of the Licensee's player data or server records.
+
+The Licensee is responsible for maintaining appropriate backups and ensuring the integrity of its server environment.
+
+Direct manipulation of SASL-managed internal metadata, PDC records, repository files, or internal identifiers may cause data inconsistencies and may affect the availability of technical support.
+
+## 5. Updates and Support
+
+Updates and new versions of SASL are distributed through the official distribution channels designated by Protocol-S Development.
+
+Each distributed version is subject to the applicable license terms.
+
+The Developer may introduce separate licensing terms for future major versions, including versions beyond the 2.x series.
+
+Technical support, maintenance, and compatibility updates are provided at the Developer's discretion.
+
+The Developer does not guarantee that every version will remain compatible with all third-party plugins, server implementations, or modified environments.
+
+## 6. Warranty Disclaimer
+
+SASL is provided "AS IS" and "AS AVAILABLE", without warranties of any kind, to the maximum extent permitted by applicable law.
+
+Protocol-S Development does not guarantee:
+
+- Uninterrupted or error-free operation.
+- Compatibility with every server environment.
+- Complete prevention of data inconsistencies or loss.
+- A specific performance level or TPS impact.
+- Compatibility with future Minecraft or server API versions.
+
+The Licensee is responsible for evaluating the Software before deploying it in a production environment.
+
+## 7. Limitation of Liability
+
+To the maximum extent permitted by applicable law, Protocol-S Development shall not be liable for indirect, incidental, special, or consequential damages arising from the use or inability to use the Software.
+
+This includes, where legally permissible:
+
+- Data loss or corruption.
+- Server downtime or instability.
+- Loss of revenue or business interruption.
+- Compatibility failures involving third-party software.
+
+Nothing in this Agreement excludes liability that cannot legally be excluded or limited under applicable law.
+
+## 8. Termination
+
+This license may be terminated if the Licensee materially violates the terms of this Agreement.
+
+Where appropriate, the Developer may provide notice and a reasonable opportunity to remedy the violation.
+
+Upon termination, the Licensee must cease using the Software and remove its installed copies, to the extent legally required.
+
+Termination does not affect rights or obligations that accrued before termination.
+
+## 9. Governing Law
+
+This Agreement shall be governed by the laws of:
+
+[Developer's Applicable Jurisdiction]
+
+Any dispute arising from this Agreement shall be handled by the competent courts of the applicable jurisdiction, subject to mandatory consumer protection and other applicable laws.
+
+## 10. Entire Agreement
+
+This Agreement constitutes the terms governing the use of SASL and supersedes prior agreements concerning the same subject matter.
+
+If any provision is found unenforceable, the remaining provisions shall continue to apply to the extent permitted by law.
+
+---
+
+**Protocol-S Development**  
+**SecureAutoSmartLocks — SASL**  
+*Built for Stability, Designed for the Future.*
+
+Copyright © 2026 Protocol-S Development. All Rights Reserved.
