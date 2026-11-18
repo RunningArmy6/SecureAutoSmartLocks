@@ -80,6 +80,8 @@ Migration operations use background processing and validation to reduce the risk
 
 ## 📚 Documentation
 
+The SASL documentation is organized into dedicated technical guides covering installation, internal systems, configuration and architecture.
+
 | Documentation | Description |
 | :--- | :--- |
 | [Installation Guide](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Installation) | Installation and initial configuration. |
@@ -87,7 +89,9 @@ Migration operations use background processing and validation to reduce the risk
 | [Core Engine](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Core-Engine) | Overview of SASL's specialist modules. |
 | [Migration Protocol](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Dreadnought-Protocol) | Legacy data migration and Colossus Bridge. |
 | [Commands & Permissions](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Command-Protocols) | Available commands and authorization. |
-| [Storage Architecture](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Storage-Architecture) | Repository, YAML, PDC and cache architecture. |
+| [Storage Architecture](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Storage-Architecture) | Repository design, YAML storage, PDC integration and current storage limitations. |
+| [Configuration Reference](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Configuration-Reference) | Detailed explanation of configuration options and their behavior. |
+| [Performance Tuning Guide](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Performance-Tuning-Guide) | Performance settings, component tuning and practical optimization guidance. |
 
 ---
 
