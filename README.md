@@ -40,7 +40,7 @@ Current implementation includes:
 
 **Version compatibility note:** The automation systems are considered most reliable from the **2.8.2+ development line** onward. Earlier versions are legacy implementations and may exhibit less reliable behavior.
 
-[📖 Automation Systems Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/AutomationChain)
+[📖 Automation Systems Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Automation-Chain)
 
 ---
 
@@ -93,12 +93,24 @@ Migration operations use background processing and validation to reduce the risk
 
 ## 📦 Installation
 
-1. Visit the [GitHub Releases](https://github.com/RunningArmy6/SecureAutoSmartLocks/releases) page.
-2. Download the latest published `.jar` release.
-3. Place the JAR file inside your server's `/plugins` directory.
-4. Start the server and configure SASL.
+SASL is officially distributed through **Modrinth** and **CurseForge**.
 
-> **Release status:** Version 2.8.2 is under development. The latest published release remains 2.8.1 until the new version is officially released.
+1. Visit one of the official download platforms below.
+2. Select the latest published SASL version compatible with your server.
+3. Download the plugin `.jar` file.
+4. Place the JAR file inside your server's `/plugins` directory.
+5. Start the server and configure SASL.
+
+### Official Download Platforms
+
+| Platform | Access |
+| :--- | :--- |
+| **Modrinth** | [SecureAutoSmartLocks](https://modrinth.com/plugin/secureautosmartlocks) |
+| **CurseForge** | [SecureAutoSmartLocks](https://www.curseforge.com/minecraft/bukkit-plugins/secureautosmartlocks) |
+
+> **Development Status:** Version 2.8.2 is currently under development. The latest published version remains 2.8.1 until the next version is officially released through the distribution platforms.
+
+> **Distribution Policy:** GitHub is used for source code management and technical documentation. Official plugin binaries and version releases are distributed through Modrinth and CurseForge.
 
 ---
 
