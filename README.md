@@ -1,89 +1,116 @@
 # 🏛️ SecureAutoSmartLocks (SASL)
-### *The Colossus Integrity Suite*
 
-![Version](https://img.shields.io/badge/Version-2.8.1--Colossus-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-ARR-green?style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Spigot%20%2F%20Paper%20%2F%20Bukkit%20%2F%20Purpur-red?style=for-the-badge)
+### *Colossus Security & Automation Framework*
 
-**SecureAutoSmartLocks (SASL)** is a high-performance security framework for modern Minecraft servers. Engineered by **Protocol-S Development**, it introduces the **Colossus Integrity Suite**—a multi-layer synchronization system designed for absolute protection with stable performance impact.
+![Version](https://img.shields.io/badge/Version-2.8.2--Development-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-green?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-21%2B-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Paper/Purpur%201.21%2B-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge)
 
----
+**SecureAutoSmartLocks (SASL)** is a Minecraft server-side protection plugin developed by **Protocol-S Development**.
 
-## 🛡️ The Colossus Advantage
-
-* **⚡ Balanced Migration Protocol(Coming Soon):** Bridge from legacy systems (LWC) to SASL effortlessly via our asynchronous *Colossus Bridge*.
-* **💎 Master-Slave Logic:** Smart synchronization for double chests and multi-block structures. Break one, secure all.
-* **💾 Triple‑Layer Persistence:** A resilient architecture combining in‑memory caching, block‑level PDC, chunk‑level PDC, and YAML redundancy, engineered for zero‑loss synchronization.
-* **🧹 Brutal Station Protocol(Garbage Collector):** Automated maintenance engine that purges ghost data and sector corruption.
-* **🦅 Anka Protocol:** Real-time autonomous data recovery and self-healing integrity checks.
-* **🏗️ Auto‑Lock Engine:** Configurable lock combinations with instant, placement‑aware protection for all container types defined in config.yml. Automatically secures supported blocks at the moment of placement, while excluding physics‑sensitive structures to prevent instability.
+SASL combines automatic container protection, ownership management, persistent lock storage, transfer security and specialized background maintenance systems into a unified architecture.
 
 ---
 
-## 🌉 Migration Protocol: The Colossus Bridge (Coming in v2.8.2)
+## 🛡️ Core Features
 
-Moving from LWC? SASL will soon handle the heavy lifting with the Colossus Bridge migration engine. Designed to process 35K+ locks asynchronously
-
-Migration Steps;
-
-- Backup First 🛡️ – Create a secure backup of your lwc.db file before proceeding.
-- Initialize SASL ⚡ – Start SASL once and confirm that the /plugins/SecureAutoSmartLocks/import/ directory has been generated.
-- Import Legacy Data 📦 – Drag and drop your backed-up lwc.db file into the import folder.
-- Restart & Relax 🎉 – Launch your server and let the Colossus Bridge synchronize your legacy locks seamlessly.
-
->[!caution]
->⚠️ Important Notice: No system is flawless. Always keep a backup of your data. The migration engine is brand new in v2.8.2, so precaution is essential.
-
-— Protocol-S Development
+- **Automatic Locking:** Automatically protects supported containers when placed, according to the server configuration.
+- **Ownership & Trust Management:** UUID-based ownership and player access management.
+- **Structural Synchronization:** Coordinated protection for supported multi-block containers, including double chests.
+- **Hybrid Data Management:** Repository-backed YAML storage, Persistent Data Containers (PDC) and in-memory caches.
+- **Transfer Security:** Protection mechanisms for hopper-based transfers and hopper minecart interactions.
+- **Automated Maintenance:** Background cleanup, cache management and integrity-related operations.
+- **Legacy Migration:** LWC migration support through the Colossus Bridge.
 
 ---
 
-## ⚡ The Roadmap: Evolution (v2.9.x)
+## ⚙️ Automation Systems
 
-We are actively architecting the Protocol-S Vault Engine — the next evolutionary leap for SASL. This release will transition the ecosystem from hybrid persistence into native SQL/MySQL/H2 cluster architecture, unlocking enterprise-grade scalability and resilience.
-🔮 Core Objectives
-- Massive Scale Management 🏗️ – Seamless handling of millions of concurrent lock entries, ensuring absolute stability even under extreme load.
-- Lightning-Fast Queries ⚡ – Sub-millisecond execution powered by optimized indexing and cluster-aware caching.
-- Deep Ecosystem Integration 🌐 – Native compatibility with third-party protection frameworks, bridging SASL into broader governance systems.
-- Adaptive Clustering 🧩 – Dynamic distribution of lock data across multiple nodes, enabling fault tolerance and zero downtime recovery.
-- Audit & Compliance Layer 🛡️ – Built-in logging and verification protocols to meet enterprise-level transparency standards.
+SASL includes specialized automation and transfer-management systems designed to handle ownership and inventory-transfer interactions.
 
-🚀 The Vault Engine is not just an upgrade — it is the foundation for SASL’s transformation into a full-scale property governance framework.
+Current implementation includes:
 
+- Hopper ownership tracking.
+- Hopper minecart ownership tracking.
+- Cached ownership lookups.
+- Hopper and hopper-minecart transfer security.
+- Memory-aware cache management and cleanup.
 
-## 🏛️ Beyond: Framework Vision (v3.0.x)
+**Version compatibility note:** The automation systems are considered most reliable from the **2.8.2+ development line** onward. Earlier versions are legacy implementations and may exhibit less reliable behavior.
 
-The Protocol-S Framework Initiative will redefine SASL from a lock engine into a comprehensive governance platform. With v3.0, SASL evolves into a modular framework capable of:
-- Cross-Plugin Governance – Centralized property management across multiple protection systems.
-- Unified API Layer – A developer-first interface for extending SASL into custom ecosystems.
-- Enterprise-Grade Security – Compliance-ready protocols for professional server networks.
-- Globalization Matrix 2.0 – Advanced localization and dialect injection for worldwide adoption.
-
-🏗️ v3.0 is not just SASL’s next version — it is the dawn of a new governance era in Minecraft server technology.
-
+[📖 Automation Systems Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Automation-Systems)
 
 ---
 
-## 🛠️ Installation
+## 🏛️ Core Engine
 
-1. Download the latest `.jar` release from our **[Modrinth](https://modrinth.com)** or **[CurseForge](https://curseforge.com)** page.
-2. Deploy the file into your `/plugins` directory.
-3. Initiate the server and watch the **Protocol-S** architecture initialize.
+The SASL Core Engine contains specialized internal modules responsible for different areas of system operation.
+
+The current architecture includes:
+
+- **Argus**
+- **Phoenix**
+- **Executioner**
+- **Dreadnought**
+- **Maximus**
+
+These components work alongside the main plugin architecture to support monitoring, recovery, maintenance, coordination and resource management.
+
+**Version compatibility note:** The current Core Engine implementation uses the **2.8.2+ development line** as its reliability baseline. Earlier versions may contain less mature implementations.
+
+[📖 Core Engine Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Core-Engine)
 
 ---
 
->[!TIP]
->## 📖 Technical Documentation
->For detailed commands, permissions and technical architecture, visit the official **[Protocol-S Wiki](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki)**.
+## 🌉 Colossus Bridge
+
+SASL includes a migration system for importing legacy protection data.
+
+The current migration provider implementation includes **LWC (SQLite)** support.
+
+Migration operations use background processing and validation to reduce the risk of incomplete imports.
+
+> **Important:** Always back up your server and migration database before starting an import. Migration results should be verified before removing the original data.
+
+[📖 Migration Documentation](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Migration-Protocol)
 
 ---
->[!Note]
->## 🏛️ About Protocol-S Development
->We are architects of high-performance Minecraft ecosystems. Our focus is on data integrity, anti-griefing protocols, and server-side optimization.
->*Lead Architect:* **RunningArmy6** *Organization:* **Protocol-S Development**
+
+## 📚 Documentation
+
+| Documentation | Description |
+| :--- | :--- |
+| [Installation Guide](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Installation) | Installation and initial configuration. |
+| [Automation Systems](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Automation-Systems) | Hopper, hopper minecart and ownership systems. |
+| [Core Engine](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Core-Engine) | Overview of SASL's specialist modules. |
+| [Migration Protocol](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Migration-Protocol) | Legacy data migration and Colossus Bridge. |
+| [Commands & Permissions](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Commands-and-Permissions) | Available commands and authorization. |
+| [Storage Architecture](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Storage-Architecture) | Repository, YAML, PDC and cache architecture. |
 
 ---
-© 2026 Protocol-S Development 
-This software is proprietary
-NOT open source. All Rights Reserved.
+
+## 📦 Installation
+
+1. Visit the [GitHub Releases](https://github.com/RunningArmy6/SecureAutoSmartLocks/releases) page.
+2. Download the latest published `.jar` release.
+3. Place the JAR file inside your server's `/plugins` directory.
+4. Start the server and configure SASL.
+
+> **Release status:** Version 2.8.2 is under development. The latest published release remains 2.8.1 until the new version is officially released.
+
+---
+
+## 🏛️ About Protocol-S Development
+
+**Protocol-S Development** focuses on Minecraft server infrastructure, protection systems, automation and data management.
+
+- **Project:** SecureAutoSmartLocks
+- **Organization:** Protocol-S Development
+- **Lead Architect:** RunningArmy6
+
+---
+
+© 2026 Protocol-S Development  
+All Rights Reserved. Proprietary Software.
