@@ -84,7 +84,6 @@ The SASL documentation is organized into dedicated technical guides covering ins
 
 | Documentation | Description |
 | :--- | :--- |
-| [Installation Guide](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Installation) | Installation and initial configuration. |
 | [Automation Systems](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Automation-Chain) | Hopper, hopper minecart and ownership systems. |
 | [Core Engine](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Core-Engine) | Overview of SASL's specialist modules. |
 | [Migration Protocol](https://github.com/RunningArmy6/SecureAutoSmartLocks/wiki/Dreadnought-Protocol) | Legacy data migration and Colossus Bridge. |
